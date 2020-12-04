@@ -13,6 +13,7 @@
  margin-top: 5em;
  box-shadow: 5px 5px 10px;
  box-shadow: black;
+ background-color: #35648C;
 }
 
 .community{
@@ -29,4 +30,33 @@
   min-height: 40em;
 min-width: 20em;
 margin-bottom: 3em;
+}
+
+.shadow{
+  box-shadow: 10px 10px 15px;
+ box-shadow: black;
+}
+
+.picshadow{
+  border-radius: 8px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.nav-color{
+  background-color: #0D0D0D;
+}
+
+.lightgreen{
+  background-color: #758C23;
+}
+
+.darkblue{
+  background-color: #224459;
+}
+
+.darkgreen{
+  background-color: #445916;
+}
+.light{
+  background-color: #D9CBBA;
 }
