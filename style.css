@@ -14,3 +14,19 @@
  box-shadow: 5px 5px 10px;
  box-shadow: black;
 }
+
+.community{
+  position: relative;
+  min-height: 38vh;
+}
+
+.spill{
+  position: absolute;
+  transform: translateY(20%);
+}
+
+.mid{
+  min-height: 40em;
+min-width: 20em;
+margin-bottom: 3em;
+}
