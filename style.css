@@ -1,0 +1,16 @@
+.linkhead{
+  background-size: cover;
+  min-height: 90vh;
+  background-image: url("https://artfiles.alphacoders.com/119/119104.jpg");
+}
+
+.cardtype{
+  min-width: 15em;
+  min-height: 30em;
+  background-color: rgb(206, 199, 199);
+  align-content: center;
+  border-radius: 6px;
+ margin-top: 5em;
+ box-shadow: 5px 5px 10px;
+ box-shadow: black;
+}
