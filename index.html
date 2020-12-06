@@ -50,8 +50,8 @@
 
   <!-- to do, add text over top of image, and label for the card -->
   <header class="container-fluid">
-    <div class="row linkhead text-center">
-      <div class="col-md-3 offset-1">
+    <div class="row linkhead text-center justify-content-around align-content-center">
+      <div class="col-3">
         <form class="cardtype">
           <div class="form-group row justify-content-center">
             <div class="col-sm-10">
@@ -87,7 +87,10 @@
           </div>
         </form> 
       </div>
-
+      <div class="col-4 text-white d-none d-md-inline-flex title">
+        <h1 class="text-outline">Twilight Guide</h1>
+        <h3 class="text-outline">Speedruns!</h3>
+      </div>
 
 
     
@@ -99,14 +102,14 @@
 
   <main class="container-fluid">
     <div class="community row lightgreen justify-content-around justify-content-center">
-      <div class="col-5">
+      <div class="col-12 col-md-5 order-2 order-md-1">
         <h2>Confused and Lost?</h2>
         <div>try our extensive guides to conquer all puzzles and banish the shadow! <p>"Our world is one of balance...
             Just as there is light to drive away darkeness, so, too, is there benevolence to banish evil."</p>
         </div>
       </div>
-      <div class="col-5">
-        <div class="card spill darkgreen">
+      <div class="col-12 col-md-5 order-1 order-md-2">
+        <div class="card darkgreen  spill">
           <h5 class="card-header text-white">Get Involved</h5>
           <div class="card-body">
             <p class="card-text text-white"> <i class="fab fa-redhat fa-2x pr-2"></i>Our brilliant game detectives will
@@ -122,11 +125,11 @@
       </div>
     </div>
     <!-- fix margin of the spill and these two element margins, the button needs adjusting -->
-    <div class="about row pt-5 justify-content-around light">
-      <div class="col-5"><img class="mid picshadow"
+    <div class="about row justify-content-around light align-content-bottom">
+      <div class="col-5 p-5"><img class=" picshadow"
           src="https://i.pinimg.com/236x/c8/d0/ee/c8d0eeacefb644f627e2a7572d5ceb89--zelda-twilight-princess-link-zelda.jpg"
           alt=""></div>
-      <div class="col-5 mt-5 pt-5">
+      <div class="col-5 p-5">
         <h2><i class="fas fa-paint-brush fa-2x"></i> Now Accepting Art Submissions</h2>
         <h3>New Art Winner Every Month, details:</h3>
         <div>Your art could be hosted live on this page! In order to enter you must provide the source file of any art
@@ -137,7 +140,7 @@
     </div>
 
     <div class="row light reviews justify-content-around text-center py-5">
-      <div class="col-3">
+      <div class="col-12 col-md-3 order-2 order-md-1 p-5">
         <div class="card shadow">
           <div class="card-body">
             <h2>"Quick tips for when you're stuck"</h2>
@@ -146,7 +149,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-4 order-1 order-md-2 p-5">
         <div class="card shadow">
           <div class="card-body">
             <i class="far fa-star fa-2x"></i><i class="far fa-star fa-2x"></i><i class="far fa-star fa-2x"></i><i
@@ -157,7 +160,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 order-3 p-5">
         <div class="card shadow">
           <div class="card-body">
             <h2>"Connect with new life-long friends." </h2>

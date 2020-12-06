@@ -21,16 +21,8 @@
   min-height: 38vh;
 }
 
-.spill{
-  position: absolute;
-  transform: translateY(20%);
-}
 
-.mid{
-  min-height: 40em;
-min-width: 20em;
-margin-bottom: 3em;
-}
+
 
 .shadow{
   box-shadow: 10px 10px 15px;
@@ -59,4 +51,13 @@ margin-bottom: 3em;
 }
 .light{
   background-color: #D9CBBA;
+}
+
+.title {
+  display: inline-flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.text-outline{
+  text-shadow: black 2px 2px;
 }
