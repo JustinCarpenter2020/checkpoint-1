@@ -21,7 +21,10 @@
   min-height: 38vh;
 }
 
-
+/* .spill{
+    position: absolute;
+    transform: translateY(50%);
+} */
 
 
 .shadow{
